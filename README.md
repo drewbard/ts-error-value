@@ -43,7 +43,7 @@ Where FetchEitherOptions is an object with the following properties:
 
 ```typescript
 import { zod } from 'zod';
-import { fetchEither } from 'errorwise';
+import { fetchEither } from 'ts-error-value';
 
 async function fetchData() {
   const [error, data] = await fetchEither({
@@ -77,7 +77,7 @@ You can use the ts-pattern library to handle these different error types in a ty
 
 ```typescript
 import { zod } from 'zod';
-import { fetchEither } from 'errorwise';
+import { fetchEither } from 'ts-error-value';
 import { match } from 'ts-pattern';
 
 async function fetchData() {
