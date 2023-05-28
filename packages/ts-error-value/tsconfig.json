@@ -1,0 +1,6 @@
+{
+    "extends": "tsconfig/iso-lib.json",
+    "include": ["**/*.ts"],  
+    "exclude": ["node_modules"]
+  }
+  

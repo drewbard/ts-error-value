@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "extends": ["eslint-config-custom/isomorphic-lib.json"],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "sourceType": "module"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ts-error-value",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format cjs,esm",
+    "dev": "tsup src/index.ts --watch",
+    "test": "vitest",
+    "lint": "eslint \"src/**/*.ts*\" --fix",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@types/http-errors": "^2.0.1",
+    "@types/node": "^17.0.12",
+    "tsconfig": "workspace:*",
+    "eslint-config-custom": "workspace:*",
+    "fetch-mock": "^9.11.0",
+    "http-errors": "^2.0.0",
+    "msw": "^1.2.1",
+    "tsup": "^6.7.0",
+    "vitest": "^0.31.1"
+  },
+  "dependencies": {
+    "http-status-codes": "^2.2.0",
+    "ts-pattern": "^4.3.0",
+    "zod": "^3.21.4"
+  }
+}

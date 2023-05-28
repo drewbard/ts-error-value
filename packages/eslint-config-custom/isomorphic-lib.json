@@ -1,0 +1,7 @@
+{
+    "extends": ["./base.json"],
+    "env": {
+        "node": true,
+        "browser": true
+    }
+}
