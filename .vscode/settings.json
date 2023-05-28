@@ -1,0 +1,12 @@
+{
+    "eslint.workingDirectories": [
+      "./apps/docs",
+      "./packages/eslint-config-custom",
+      "./packages/ts-error-value",
+      "./packages/tsconfig"
+    ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  }
+  
